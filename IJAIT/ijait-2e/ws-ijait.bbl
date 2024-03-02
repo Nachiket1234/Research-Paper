@@ -1,0 +1,127 @@
+\begin{thebibliography}{10}
+
+\bibitem{astudillo2020copper}
+Gabriel Astudillo, Ra{\'u}l Carrasco, Christian Fern{\'a}ndez-Campusano, and
+  M{\'a}x Chac{\'o}n.
+\newblock Copper price prediction using support vector regression technique.
+\newblock {\em applied sciences}, 10(19):6648, 2020.
+
+\bibitem{bahdanau2014neural}
+Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em arXiv preprint arXiv:1409.0473}, 2014.
+
+\bibitem{chakole2023tutorial}
+Jagdish Chakole and Manish Kurhekar.
+\newblock Tutorial on automated trading using api.
+\newblock In {\em Proceedings of the 6th Joint International Conference on Data
+  Science \& Management of Data (10th ACM IKDD CODS and 28th COMAD)}, pages
+  305--307, 2023.
+
+\bibitem{chakole2021convolutional}
+Jagdish Chakole and Manish~P Kurhekar.
+\newblock Convolutional neural network-based a novel deep trend following
+  strategy for stock market trading.
+\newblock In {\em CIKM Workshops}, 2021.
+
+\bibitem{cho2014learning}
+Kyunghyun Cho, Bart Van~Merri{\"e}nboer, Caglar Gulcehre, Dzmitry Bahdanau,
+  Fethi Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock {\em arXiv preprint arXiv:1406.1078}, 2014.
+
+\bibitem{gu2021forecasting}
+Qinghua Gu, Yinxin Chang, Naixue Xiong, and Lu~Chen.
+\newblock Forecasting nickel futures price based on the empirical wavelet
+  transform and gradient boosting decision trees.
+\newblock {\em Applied Soft Computing}, 109:107472, 2021.
+
+\bibitem{guha2016gold}
+Banhi Guha and Gautam Bandyopadhyay.
+\newblock Gold price forecasting using arima model.
+\newblock {\em Journal of Advanced Management Science}, 4(2), 2016.
+
+\bibitem{hajek2022fuzzy}
+Petr Hajek and Josef Novotny.
+\newblock Fuzzy rule-based prediction of gold prices using news affect.
+\newblock {\em Expert Systems with Applications}, 193:116487, 2022.
+
+\bibitem{he2023novel}
+Zhichao He and Jianhua Huang.
+\newblock A novel non-ferrous metal price hybrid forecasting model based on
+  data preprocessing and error correction.
+\newblock {\em Resources Policy}, 86:104189, 2023.
+
+\bibitem{kriechbaumer2014improved}
+Thomas Kriechbaumer, Andrew Angus, David Parsons, and Monica~Rivas Casado.
+\newblock An improved wavelet--arima approach for forecasting metal prices.
+\newblock {\em Resources Policy}, 39:32--41, 2014.
+
+\bibitem{kristjanpoller2017volatility}
+Werner Kristjanpoller and Esteban Hern{\'a}ndez.
+\newblock Volatility of main metals forecasted by a hybrid ann-garch model with
+  regressors.
+\newblock {\em Expert Systems with Applications}, 84:290--300, 2017.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock {\em Advances in neural information processing systems}, 25, 2012.
+
+\bibitem{li2023novel}
+Zhanglong Li, Yunlei Yang, Yinghao Chen, and Jizhao Huang.
+\newblock A novel non-ferrous metals price forecast model based on lstm and
+  multivariate mode decomposition.
+\newblock {\em Axioms}, 12(7):670, 2023.
+
+\bibitem{liu2020non}
+Yishun Liu, Chunhua Yang, Keke Huang, and Weihua Gui.
+\newblock Non-ferrous metals price forecasting based on variational mode
+  decomposition and lstm network.
+\newblock {\em Knowledge-Based Systems}, 188:105006, 2020.
+
+\bibitem{mendez2019artificial}
+Mariano M{\'e}ndez-Su{\'a}rez, Francisco Garc{\'\i}a-Fern{\'a}ndez, and
+  Fernando Gallardo.
+\newblock Artificial intelligence modelling framework for financial automated
+  advising in the copper market.
+\newblock {\em Journal of Open Innovation: Technology, Market, and Complexity},
+  5(4):81, 2019.
+
+\bibitem{shao2019nickel}
+Bilin Shao, Maolin Li, Yu~Zhao, and Genqing Bian.
+\newblock Nickel price forecast based on the lstm neural network optimized by
+  the improved pso algorithm.
+\newblock {\em Mathematical Problems in Engineering}, 2019, 2019.
+
+\bibitem{sutskever2014sequence}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock {\em Advances in neural information processing systems}, 27, 2014.
+
+\bibitem{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{watkins2004econometric}
+Clinton Watkins and Michael McAleer.
+\newblock Econometric modelling of non-ferrous metal prices.
+\newblock {\em Journal of Economic Surveys}, 18(5):651--701, 2004.
+
+\bibitem{zhao2022risk}
+Cheng Zhao, Yexin Wang, Yuefeng Cen, Lebin Wu, and Jie Zhou.
+\newblock Risk control of metal raw materials based on deep learning.
+\newblock {\em Measurement and Control}, 55(9-10):1016--1030, 2022.
+
+\bibitem{zhou2019precious}
+Junhao Zhou, Zhanhong He, Ya~Nan Song, Hao Wang, Xiaoping Yang, Wenjuan Lian,
+  and Hong-Ning Dai.
+\newblock Precious metal price prediction based on deep regularization
+  self-attention regression.
+\newblock {\em IEEE Access}, 8:2178--2187, 2019.
+
+\end{thebibliography}
