@@ -94,7 +94,7 @@ A feedforward Artificial Neural Network (ANN) is suitable for data with spatial 
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=7cm]{rnn1.png}
+		\includegraphics[width=15cm, height=7cm]{RNN.jpg}
 		\caption{Recurrent Neural Network Architecture}
 		\label{figrnn1}
 	\end{figure}
@@ -133,7 +133,7 @@ In the above equations, $W$ is the weight vector and $b$ is the bais of the resp
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=12cm, height=5cm]{lstm.png}
+		\includegraphics[width=10cm, height=8cm]{LSTM.jpg}
 		\caption{LSTM architechture}
 		\label{lstm}
 	\end{figure}
@@ -158,8 +158,14 @@ The current hidden state ${h_t}$ is computed as follows.
 	\quad {h_t}= (1-u_t) \odot h_{t-1} + u_t \odot \tilde{h_t}
 \end{equation}
 
-\subsection{Convolutional Neural Network}
-The Convolutional Neural Network (CNN) is introduced in \cite{krizhevsky2012imagenet}. It is a deep neural network and consists of a series of layers of type convolutional layer, pooling layer, and fully connected layer. It is typically useful for visual tasks but it also has utility in other types of data like numeric and text data \cite{chakole2021convolutional}. The main operation is convolution operation which is useful for feature extraction. The major role of the pooling layer is dimensionality reduction. After a series of convolution and pooling layers a fully connected layer is connected to map extracted features to the desired output.
+\begin{center}
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=11cm, height=7cm]{GRU.jpg}
+		\caption{GRU architechture}
+		\label{lstm}
+	\end{figure}
+\end{center}
 
 \subsection{Transformer}
 Unlike LSTM, GRU, and other primitive RNN-based models that rely on sequential processing, the Transformer on the other hand adopts a localized and hierarchical processing approach inspired by Convolutional Neural Networks (CNN). The key innovation lies in the integration of attention-based mechanisms which allows parallel computation and makes it possible to capture long-range dependencies thereby making it more efficient as shown in Fig. \ref{transformer}.
@@ -239,7 +245,7 @@ The daily price sequence of the Aluminium on the London Metal Exchange (LME) is 
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=14cm]{ps.png}
+		\includegraphics[width=11cm, height=15cm]{Transformer.jpg}
 		\caption{Proposed System}
 		\label{figpp}
 	\end{figure}
@@ -274,7 +280,7 @@ Figure \ref{fig:A}, Figure \ref{fig:Co}, Figure \ref{fig:Z}, Figure \ref{fig:N} 
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=7cm]{N.png}
+		\includegraphics[width=13cm, height=7cm]{N.png}
 		\caption{Daily close price series for Nickel.}
 		\label{fig:N}
 	\end{figure}
@@ -283,7 +289,7 @@ Figure \ref{fig:A}, Figure \ref{fig:Co}, Figure \ref{fig:Z}, Figure \ref{fig:N} 
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=7cm]{A.png}
+		\includegraphics[width=13cm, height=7cm]{A.png}
 		\caption{Daily close price series for Aluminium.}
 		\label{fig:A}
 	\end{figure}
@@ -292,7 +298,7 @@ Figure \ref{fig:A}, Figure \ref{fig:Co}, Figure \ref{fig:Z}, Figure \ref{fig:N} 
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=7cm]{Co.png}
+		\includegraphics[width=13cm, height=7cm]{Co.png}
 		\caption{Daily close price series for Copper.}
 		\label{fig:Co}
 	\end{figure}
@@ -301,7 +307,7 @@ Figure \ref{fig:A}, Figure \ref{fig:Co}, Figure \ref{fig:Z}, Figure \ref{fig:N} 
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=7cm]{Z.png}
+		\includegraphics[width=13cm, height=7cm]{Z.png}
 		\caption{Daily close price series for Zinc.}
 		\label{fig:Z}
 	\end{figure}
@@ -410,8 +416,26 @@ We experimented with the proposed model on four metals viz Aluminium, Copper, Zi
 \begin{center}
 	\begin{figure}[!htbp]
 		\centering
-		\includegraphics[width=15cm, height=7cm]{r1.png}
+		\includegraphics[width=15cm, height=7cm]{MSE.jpg}
 		\caption{MSE of the five models including proposed Transformer based model on testing dataset of Aluminium}
+		\label{figr1}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=15cm, height=7cm]{MAE.jpg}
+		\caption{MAE of the five models including proposed Transformer based model on testing dataset of Aluminium}
+		\label{figr1}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[!htbp]
+		\centering
+		\includegraphics[width=15cm, height=7cm]{MAPE.png}
+		\caption{MAPE of the five models including proposed Transformer based model on testing dataset of Aluminium}
 		\label{figr1}
 	\end{figure}
 \end{center}
